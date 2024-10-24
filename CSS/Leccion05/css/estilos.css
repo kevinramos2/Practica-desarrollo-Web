@@ -5,7 +5,10 @@ h1{
 }
 .centrar{
   /*widt con porcentaje o max-width para que se adapte al tamño de la pantalla*/
+  position: relative;
+  top: 100px;
+  left: 50px;
   width: 50%;
   border: 3px solid firebrick;
   margin: auto;
-}
+} 
