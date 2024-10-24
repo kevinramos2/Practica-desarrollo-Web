@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sofia&shadow_multiple&display=swap');
 
 h1{
   text-transform: uppercase;
@@ -26,6 +26,7 @@ h1{
 }
 .times{
   background-color: rgb(26, 173, 173);
+  /*font: font-style font-variant font-weight font-size/line-heigth font-family*/
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-weight: 100;
