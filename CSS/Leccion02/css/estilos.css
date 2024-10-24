@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
 h1{
   text-transform: uppercase;
   text-align: center;
   text-shadow: 2px 2px 2px black;
   background-color: cadetblue;
   color: beige;
+  font-family: "Sofia", cursive;
 }
 .caja{
   padding: 10px;
@@ -24,18 +27,26 @@ h1{
 .times{
   background-color: rgb(26, 173, 173);
   font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 100;
+  font-variant: small-caps;
+  /*font-size: 3vw;*/
 }
 .georgia{
   background-color: turquoise;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bold;
 }
 .arial{
   background-color: blueviolet;
   font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
 }
 .verdana{
   background-color: rgb(169, 103, 231);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: initial;
 }
 .courier{
   background-color: rgb(116, 206, 26);
