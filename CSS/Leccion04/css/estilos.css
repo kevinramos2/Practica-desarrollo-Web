@@ -9,3 +9,17 @@ h1, div, p{
 span{
   display: block;
 }
+a{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+a:hover{
+  color: darkorchid;
+}
+
+li{
+  
+  text-align: center;
+  display: inline;
+}
