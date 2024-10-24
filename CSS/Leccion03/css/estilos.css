@@ -1,6 +1,7 @@
 h1{
   text-align: center;
   color: crimson;
+  text-shadow: 1px 1px 1px black;
 }
 div{
   padding: 15px;
@@ -8,7 +9,8 @@ div{
   max-width: 400px;
 }
 
-div i{
+.icono{
   font-size: 2.5em;
   color: cornflowerblue;
+  vertical-align: bottom;
 }
