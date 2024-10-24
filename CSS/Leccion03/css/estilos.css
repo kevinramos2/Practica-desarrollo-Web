@@ -1,0 +1,14 @@
+h1{
+  text-align: center;
+  color: crimson;
+}
+div{
+  padding: 15px;
+  margin: auto;
+  max-width: 400px;
+}
+
+div i{
+  font-size: 2.5em;
+  color: cornflowerblue;
+}
