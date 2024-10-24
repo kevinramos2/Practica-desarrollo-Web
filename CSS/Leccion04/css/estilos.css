@@ -6,6 +6,9 @@ h1, div, p{
   padding: 10px;
   display: block;
 }
+h1{
+  display: none;
+}
 span{
   display: block;
 }
@@ -19,7 +22,7 @@ a:hover{
 }
 
 li{
-  
+
   text-align: center;
   display: inline;
 }
