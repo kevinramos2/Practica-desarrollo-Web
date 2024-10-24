@@ -34,3 +34,12 @@ h1{
   right: 15px;
   border: 3px solid firebrick;
 }
+
+.sticky{
+  position: sticky;
+  top: 0;
+  border: 3px solid black;
+}
+.scroll{
+  padding-bottom: 2000px;
+}
