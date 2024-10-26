@@ -1,0 +1,12 @@
+h1{
+  text-align: center;
+  color: blue;
+  text-shadow: 2px 2px 2px blueviolet;
+}
+div.contenedor{
+  border: 2px solid black;
+  width: 50%;
+  height: 100px;
+  margin: auto;
+  overflow: scroll; /*hidden para ocultarlo y scroll para que sea visible pero a su vez no se salga del div*/
+}
