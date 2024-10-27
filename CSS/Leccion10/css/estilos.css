@@ -4,7 +4,7 @@ h1{
   text-shadow: 2px 2px 2px blue;
 }
 div.contenedor{
-  
+
   width: 80%;
   height: 20;
   margin: auto;
@@ -17,5 +17,10 @@ div.contenedor.descendiente p{
 }
 div.contenedor.hijo > p{
   background-color: blueviolet;
-
+}
+div.contenedor.adyacente + p{
+  background-color: chartreuse;
+}
+div.contenedor.hermano ~ p{
+  background-color: yellowgreen;
 }
