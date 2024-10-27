@@ -1,0 +1,15 @@
+h1{
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 2px blue;
+}
+div.contenedor{
+  width: 80%;
+  height: 20;
+  margin: auto;
+  border: 3px solid blue;
+  padding: 15px;
+  color: black;
+}div.contenedor.descendiente p{
+  background-color: violet;
+}
