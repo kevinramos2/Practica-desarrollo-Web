@@ -1,0 +1,32 @@
+h1{
+  color: purple;
+  text-align: center;
+  text-shadow: 2px 2px 2px violet;
+}
+div.contenedor{
+  width: 100%;
+  height: 150px;
+
+}
+div.contenedor1{
+  width: 30%;
+  border: 3px dashed blueviolet;
+  overflow: scroll; 
+  height: 120px;
+  float: left;
+}
+div.contenedor2{
+  width: 30%;
+  border: 3px dashed rebeccapurple;
+  overflow: scroll;
+  height: 120px;
+  float: right;
+}
+div.contenedor3{
+  clear: both;
+  width: 30%;
+  height: 150px;
+  margin: auto;
+  overflow: scroll;
+  border: 3px dashed orange;
+}
