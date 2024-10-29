@@ -1,0 +1,28 @@
+h1{
+  text-align: center;
+  color: aqua;
+  text-shadow: 2px 2px 2px blue;
+}
+div.contenedor{
+  display: flex;
+  background-color: violet;
+  margin: auto;
+  border: 3px solid mediumorchid;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px purple;
+  color: #457b9d;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  align-content: end;
+}
+div.contenedor > p{
+  background-color: #4895ef;
+  color: whitesmoke;
+  margin: 20px;
+  padding: 15px;
+  font-size: 1.5em;
+  border: 2px solid black;
+}
