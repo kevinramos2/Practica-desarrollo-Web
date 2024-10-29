@@ -1,0 +1,25 @@
+h1{
+  text-align: center;
+  color: aqua;
+  text-shadow: 2px 2px 2px blue;
+}
+div.contenedor{
+  width: 30%;
+  height: 20%;
+  margin: auto;
+  border: 3px solid mediumorchid;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px purple;
+  color: #457b9d;
+}
+div.cabecero{
+  background-color: aquamarine;
+}
+div.cuerpo{
+  padding-top: 2px;
+  font-size: 1.2em;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgb(177,177,177);
+}
