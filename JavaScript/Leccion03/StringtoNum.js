@@ -7,3 +7,6 @@ if(edad >= 18){
 else{
   console.log("No puede votar")
 }
+
+let resultado = (edad>=18)?"Puede votar":"No puede votar";
+console.log(resultado)
