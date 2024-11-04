@@ -23,3 +23,15 @@ console.log(result);
 const sumarFuncionTipoFlecha = (a,b) => a + b;
 resul2 = sumarFuncionTipoFlecha(3,5);
 console.log(resul2);
+
+//Ejemplo
+let resultados = sumarTodo(5,4,3,10,9,10);
+
+function sumarTodo(){
+  let suma = 0;
+  for(let i = 0; i < arguments.length; i++){
+    suma += arguments[i];
+  }
+  return suma
+}
+console.log(resultados)
