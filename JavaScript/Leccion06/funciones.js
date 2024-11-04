@@ -13,3 +13,8 @@ let x = function(a,b){
 }
 result = x(1,2);
 console.log(result);
+
+//Funciones self-invoking - solo se llama una vez y luego no puede ser utalizable
+(function (){
+  console.log("Ejecutando la función");
+})();
