@@ -21,3 +21,7 @@ console.log(autos2);
 //agregar por indice
 autos2[autos2.length] = "Cadillac";
 console.log(autos2) ;
+
+//verificar que sí es un arreglo
+console.log(Array.isArray(autos2))
+console.log(autos2 instanceof Array)
