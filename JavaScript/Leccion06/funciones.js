@@ -18,3 +18,8 @@ console.log(result);
 (function (){
   console.log("Ejecutando la función");
 })();
+
+//Funciones flecha
+const sumarFuncionTipoFlecha = (a,b) => a + b;
+resul2 = sumarFuncionTipoFlecha(3,5);
+console.log(resul2);
