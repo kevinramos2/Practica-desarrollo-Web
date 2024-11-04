@@ -35,3 +35,25 @@ function sumarTodo(){
   return suma
 }
 console.log(resultados)
+
+//Paso por valor 
+let w = 10;
+function cambiarValor(a){
+  a = 20;
+}
+//Pasa una copia del valor de W pero no se modifica W
+cambiarValor(w);
+console.log(w);
+
+//Paso por referencia
+const persona = {
+  nombre: "Juan",
+  apellido: "Perez"
+}
+//Pasa el valor por la referencia a la memoria
+cambiarValorObjeto(persona);
+function cambiarValorObjeto(p1){
+  p1.nombre = "Carlos";
+  p1.apellido = "Ramos"
+}
+console.log(persona)
