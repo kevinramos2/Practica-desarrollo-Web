@@ -23,5 +23,12 @@ for(let cont4 = 0; cont4 <= 10; cont4++){
     console.log(cont4)
     break;
   }
-    
+}
+
+//Uso de continue
+for(let cont5 =0; cont5 <= 10; cont5++){
+  if(cont5%2 != 0){
+    continue;
+  }
+  console.log(cont5)
 }
