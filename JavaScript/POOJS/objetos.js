@@ -55,4 +55,15 @@ class Persona{
     this.edad = edad;
     this.ciudad = ciudad;
   }
+  //Método para presentar a la persona
+  presentacion(){
+    console.log("Hola, me llamo " + this.nombre +", tengo "+this.edad + "años y vivo en " + this.ciudad);
+  }
+
+  //Método para aumentar la edad de la persona
+  cumpleañosAumenta(){
+    this.edad += 1;
+    console.log("Felicidades, has cumplido años jaskasj estás un año más viejo, ahora tienes "+ this.edad);
+  }
 }
+
