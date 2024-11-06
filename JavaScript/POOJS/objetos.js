@@ -72,3 +72,6 @@ const persona1 = new Persona("Kevin",21,"Villavicencio");
 
 //Ahora hacemos que se presente
 persona1.presentacion(); //Si funcionaaaaa
+
+//Vamos a incrementar la edad
+persona1.cumpleañosAumenta();
