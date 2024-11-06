@@ -9,6 +9,13 @@ class Libro{
   }
   //Se va poder mostrar la información del libro
   mostrarInfo() {
-    
+    console.log("El libro seleccionado es "+this.titulo
+      +", escrito por " +this.autor +", publicado el año "
+      +this.fechaPublicacion +" y su género es "+this.genero);
   }
 }
+
+//Para probar 
+const libro1 = new Libro("Holaaa","Kevin Ramos",2024,"NADA");
+
+libro1.mostrarInfo();
