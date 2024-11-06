@@ -46,3 +46,11 @@ libro.cambiarDisponibilidad(false);
 
 //Volvemos a mostrar la información del libro
 libro.mostrarInfo();
+
+
+//Ejercicio pero con clases - a ver qué sale
+class Persona{
+  constructor(nombre, edad, ciudad){
+    
+  }
+}
