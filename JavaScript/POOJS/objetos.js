@@ -30,8 +30,13 @@ let libro = {
     console.log("Año de publicación: " + this.anioPublicacion);
     console.log("Géneros: " + this.generos.join(", "));
     console.log("Disponibilidad: " + (this.disponibilidad ? "Disponible" : "No disponible"));
-  }
-  
-}
+  },
+
+  // Método para cambiar la disponibilidad
+  cambiarDisponibilidad: function(nuevaDisponibilidad) {
+      this.disponibilidad = nuevaDisponibilidad;
+      console.log("La disponibilidad ha sido actualizada a: " + (this.disponibilidad ? "Disponible" : "No disponible"));
+  }  
+};
 //Para ver si se imprime lo que debe
 libro.mostrarInfo();
