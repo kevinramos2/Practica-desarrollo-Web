@@ -22,4 +22,16 @@ let libro = {
   anioPublicacion: 2024,
   generos: ["Programación", "Tecnología", "Educación"],
   disponibilidad: true,
+
+   // Método para mostrar la información completa del libro
+   mostrarInfo: function() {
+    console.log("Título: " + this.titulo);
+    console.log("Autor: " + this.autor);
+    console.log("Año de publicación: " + this.anioPublicacion);
+    console.log("Géneros: " + this.generos.join(", "));
+    console.log("Disponibilidad: " + (this.disponibilidad ? "Disponible" : "No disponible"));
+  }
+  
 }
+//Para ver si se imprime lo que debe
+libro.mostrarInfo();
