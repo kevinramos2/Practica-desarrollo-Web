@@ -57,7 +57,7 @@ class Persona{
   }
   //Método para presentar a la persona
   presentacion(){
-    console.log("Hola, me llamo " + this.nombre +", tengo "+this.edad + "años y vivo en " + this.ciudad);
+    console.log("Hola, me llamo " + this.nombre +", tengo "+this.edad + " años y vivo en " + this.ciudad);
   }
 
   //Método para aumentar la edad de la persona
@@ -67,3 +67,8 @@ class Persona{
   }
 }
 
+//Vamos a crear a la persona
+const persona1 = new Persona("Kevin",21,"Villavicencio");
+
+//Ahora hacemos que se presente
+persona1.presentacion(); //Si funcionaaaaa
