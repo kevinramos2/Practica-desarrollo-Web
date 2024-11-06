@@ -40,3 +40,9 @@ let libro = {
 };
 //Para ver si se imprime lo que debe
 libro.mostrarInfo();
+
+//Ahora cambiamos la disponibilidad del libro
+libro.cambiarDisponibilidad(false);
+
+//Volvemos a mostrar la información del libro
+libro.mostrarInfo();
