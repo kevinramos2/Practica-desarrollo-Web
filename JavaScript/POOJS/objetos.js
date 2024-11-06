@@ -51,6 +51,8 @@ libro.mostrarInfo();
 //Ejercicio pero con clases - a ver qué sale
 class Persona{
   constructor(nombre, edad, ciudad){
-    
+    this.nombre = nombre;
+    this.edad = edad;
+    this.ciudad = ciudad;
   }
 }
