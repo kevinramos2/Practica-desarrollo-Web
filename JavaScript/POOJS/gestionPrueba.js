@@ -15,6 +15,11 @@ class Libro{
   }
 }
 
+class Biblioteca{
+  constructor(disponibilidad){
+    this.disponibilidad = disponibilidad;
+  }
+}
 //Para probar 
 const libro1 = new Libro("Holaaa","Kevin Ramos",2024,"NADA");
 
