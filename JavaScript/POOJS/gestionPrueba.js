@@ -31,3 +31,7 @@ class Biblioteca{
 const libro1 = new Libro("Holaaa","Kevin Ramos",2024,"NADA");
 
 libro1.mostrarInfo();
+
+const biblioteca1 = new Biblioteca("Textos increíbles");
+
+biblioteca1.agregarLibro(libro1);
