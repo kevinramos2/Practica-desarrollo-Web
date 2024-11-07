@@ -32,7 +32,7 @@ class Biblioteca{
     //aquí se buscará el libro 
     const resultados = this.libros.filter(libro => libro.titulo.toLowerCase().includes(tituloABuscar.toLowerCase()));
     if (resultados.length > 0) {
-      console.log("Libros encontrados con el título" +titulo+" :");
+      console.log("Libros encontrados con el título" +tituloABuscar+" :");
       resultados.forEach(libro => libro.mostrarInfo());
     } else {
       console.log("No se encontraron libros con el título "+titulo+".");
@@ -56,10 +56,10 @@ class Biblioteca{
   mostrarInventario(){
     if(this.libros.length > 0){
       console.log("Libros en la biblioteca "+this.nombre+":");
-      this.libros.forEach(libro => libro.mostrarInfo())
+      this.libros.forEach(libro => libro.mostrarInfo());
     }
     else{
-      console.log("No hay libros en la biblioteca "+this.nombre+".")
+      console.log("No hay libros en la biblioteca "+this.nombre+".");
     }
   }
 }
@@ -81,5 +81,11 @@ biblioteca1.agregarLibro(libro4);
 biblioteca1.agregarLibro(libro5);
 biblioteca1.agregarLibro(libro6);
  
+//Mostramos todo el inventario
+biblioteca1.mostrarInventario();
 
+//Buscamos por titulo
+biblioteca1.buscarPorTitulo("Felicidad y tristeza");
 
+//Buscamos por genero
+biblioteca1.mostrarPorGenero("Distopía");
