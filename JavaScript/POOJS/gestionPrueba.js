@@ -30,16 +30,32 @@ class Biblioteca{
   // esto se hará directamente desde el documento luego veré cómo hacer para ingresar los datos por consola
   buscarPorTitulo(tituloABuscar){
     //aquí se buscará el libro 
-    resultados = [];
-    
+    const resultados = this.libros.filter(libro => libro.titulo.toLowerCase().includes(tituloABuscar.toLowerCase()));
+    if (resultados.length > 0) {
+      console.log(`Libros encontrados con el título "${titulo}":`);
+      resultados.forEach(libro => libro.mostrarInfo());
+    } else {
+      console.log(`No se encontraron libros con el título "${titulo}".`);
+    }
   }
+
 
 }
 //Para probar 
 const libro1 = new Libro("Holaaa","Kevin Ramos",2024,"NADA");
-
+const libro2 = new Libro("Introducción a Python","Pepito Perez",2010,"Académico");
+const libro3 = new Libro("Felicidad y tristeza","Triste tristona",1999,"Reflexivo");
+const libro4 = new Libro("Cien años de soledad","Gabriel García Marquez",2024,"Realismo");
+const libro5 = new Libro("Rebelión en la granja","George Orwell",1954,"Distopía");
+const libro6 = new Libro("El principito","Antoine de Saint-Exupéry",1943,"Fabula");
 libro1.mostrarInfo();
 
 const biblioteca1 = new Biblioteca("Textos increíbles");
 
 biblioteca1.agregarLibro(libro1);
+biblioteca1.agregarLibro(libro2);
+biblioteca1.agregarLibro(libro3);
+biblioteca1.agregarLibro(libro4);
+biblioteca1.agregarLibro(libro5);
+biblioteca1.agregarLibro(libro6);
+
