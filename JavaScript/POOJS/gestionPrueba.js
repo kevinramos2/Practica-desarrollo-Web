@@ -42,7 +42,11 @@ class Biblioteca{
   //Método para buscar por género
   mostrarPorGenero(genero) {
     const librosGenero = this.libros.filter(libro => libro.genero.toLowerCase() === genero.toLowerCase());
-
+    if (librosGenero.length > 0) {
+      console.log(`Libros de género "${genero}":`);
+      librosGenero.forEach(libro => libro.mostrarInfo());
+    }
+    else{}
   }
   
 
