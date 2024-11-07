@@ -38,6 +38,13 @@ class Biblioteca{
       console.log(`No se encontraron libros con el título "${titulo}".`);
     }
   }
+  
+  //Método para buscar por género
+  mostrarPorGenero(genero) {
+    const librosGenero = this.libros.filter(libro => libro.genero.toLowerCase() === genero.toLowerCase());
+
+  }
+  
 
 
 }
