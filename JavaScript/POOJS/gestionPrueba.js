@@ -52,7 +52,16 @@ class Biblioteca{
   }
   
 
-
+  //Método para mostrar todos los libros que están en la biblioteca
+  mostrarInventario(){
+    if(this.libros.length > 0){
+      console.log("Libros en la biblioteca "+this.nombre+":");
+      this.libros.forEach(libro => libro.mostrarInfo())
+    }
+    else{
+      console.log("No hay libros en la biblioteca "+this.nombre+".")
+    }
+  }
 }
 //Para probar 
 const libro1 = new Libro("Holaaa","Kevin Ramos",2024,"NADA");
@@ -71,4 +80,6 @@ biblioteca1.agregarLibro(libro3);
 biblioteca1.agregarLibro(libro4);
 biblioteca1.agregarLibro(libro5);
 biblioteca1.agregarLibro(libro6);
+ 
+
 
