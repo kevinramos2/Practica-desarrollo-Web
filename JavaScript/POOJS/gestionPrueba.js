@@ -26,6 +26,14 @@ class Biblioteca{
     console.log("El libro "+libroNuevo.titulo+" ha sido añadido exitosamente a la biblioteca "+this.nombre);
   }
 
+  //método para buscar libro por el título
+  // esto se hará directamente desde el documento luego veré cómo hacer para ingresar los datos por consola
+  buscarPorTitulo(tituloABuscar){
+    //aquí se buscará el libro 
+    resultados = [];
+    
+  }
+
 }
 //Para probar 
 const libro1 = new Libro("Holaaa","Kevin Ramos",2024,"NADA");
