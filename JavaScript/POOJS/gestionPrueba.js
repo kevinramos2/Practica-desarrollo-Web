@@ -32,10 +32,10 @@ class Biblioteca{
     //aquí se buscará el libro 
     const resultados = this.libros.filter(libro => libro.titulo.toLowerCase().includes(tituloABuscar.toLowerCase()));
     if (resultados.length > 0) {
-      console.log(`Libros encontrados con el título "${titulo}":`);
+      console.log("Libros encontrados con el título" +titulo+" :");
       resultados.forEach(libro => libro.mostrarInfo());
     } else {
-      console.log(`No se encontraron libros con el título "${titulo}".`);
+      console.log("No se encontraron libros con el título "+titulo+".");
     }
   }
   
@@ -43,10 +43,12 @@ class Biblioteca{
   mostrarPorGenero(genero) {
     const librosGenero = this.libros.filter(libro => libro.genero.toLowerCase() === genero.toLowerCase());
     if (librosGenero.length > 0) {
-      console.log(`Libros de género "${genero}":`);
+      console.log("Libros de género "+genero+":");
       librosGenero.forEach(libro => libro.mostrarInfo());
     }
-    else{}
+    else{
+      console.log("No se encontraron libros del género "+genero);
+    }
   }
   
 
