@@ -16,9 +16,16 @@ class Libro{
 }
 
 class Biblioteca{
-  constructor(disponibilidad){
-    this.disponibilidad = disponibilidad;
+  constructor(nombre){
+    this.nombre = nombre; // nombre de la biblioteca
+    this.libros = []; // aquí guardaré los libros de la colección de la biblioteca
   }
+  //Un método para agregar un nuevo libro a la biblioteca
+  agregarLibro(libroNuevo){
+    this.libros.push(libroNuevo);
+    console.log("El libro "+libroNuevo.titulo+" ha sido añadido exitosamente a la biblioteca "+this.nombre);
+  }
+
 }
 //Para probar 
 const libro1 = new Libro("Holaaa","Kevin Ramos",2024,"NADA");
