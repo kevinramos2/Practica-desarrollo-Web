@@ -30,3 +30,4 @@ carrito.agregarProducto(producto1);
 carrito.agregarProducto(producto2);
 carrito.agregarProducto(producto4);
 
+console.log("Total a pagar:", carrito.calcularTotal()); 
