@@ -65,5 +65,7 @@ class Curso {
     this.estudiantes = [];
     this.modulos = [];
   }
-
+  agregarEstudiante(estudiante) {
+    this.estudiantes.push(estudiante);
+  }
 }
