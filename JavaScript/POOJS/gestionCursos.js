@@ -68,4 +68,9 @@ class Curso {
   agregarEstudiante(estudiante) {
     this.estudiantes.push(estudiante);
   }
+
+  agregarModulo(modulo) {
+    this.modulos.push(modulo);
+    console.log("Módulo ",modulo.nombre," agregado al curso ",this.nombre);
+  }
 }
