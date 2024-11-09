@@ -17,3 +17,9 @@ class Carrito {
     return this.productos.reduce((total, producto) => total + producto.precio, 0);
   }
 }
+
+//Para probar 
+const producto1 = new Producto("Laptop", 1500);
+const producto2 = new Producto("Teclado", 50);
+const producto3 = new Producto("Mouse", 70);
+const producto4 = new Producto("Monitor", 5000);
