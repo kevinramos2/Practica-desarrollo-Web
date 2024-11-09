@@ -4,3 +4,12 @@ class Producto {
     this.precio = precio;
   }
 }
+class Carrito {
+  constructor() {
+    this.productos = [];
+  }
+
+  agregarProducto(producto) {
+    this.productos.push(producto);
+  }
+}
