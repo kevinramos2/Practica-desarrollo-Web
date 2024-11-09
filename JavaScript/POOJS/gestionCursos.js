@@ -54,3 +54,16 @@ class Profesor extends Usuario {
     return nuevoCurso;
   }
 }
+
+
+// Clase Curso
+class Curso {
+  constructor(nombre, descripcion, profesor) {
+    this.nombre = nombre;
+    this.descripcion = descripcion;
+    this.profesor = profesor;
+    this.estudiantes = [];
+    this.modulos = [];
+  }
+
+}
