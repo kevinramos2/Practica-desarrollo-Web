@@ -16,11 +16,26 @@ class Estudiante extends Usuario {
     if (!this.cursosInscritos.includes(curso)) {
       this.cursosInscritos.push(curso);
       curso.agregarEstudiante(this);
-      console.log(`${this.nombre} se ha inscrito en el curso ${curso.nombre}.`);
+      console.log(this.nombre, "se ha inscrito en el curso ",curso.nombre);
     } else {
-      console.log(`${this.nombre} ya está inscrito en el curso ${curso.nombre}.`);
+      console.log(this.nombre, "ya está inscrito en el curso ",curso.nombre);
     }
   }
-
-  
+ inscribirse(curso) {
+    if (!this.cursosInscritos.includes(curso)) {
+      this.cursosInscritos.push(curso);
+      curso.agregarEstudiante(this);
+      console.log(this.nombre, "se ha inscrito en el curso ",curso.nombre);
+    } else {
+      console.log(this.nombre,"ya está inscrito en el curso ",curso.nombre);
+    }
+  }
+  verLecciones(curso) {
+    if (this.cursosInscritos.includes(curso)) {
+      console.log("Lecciones del curso ",curso.nombre);
+      curso.mostrarContenido();
+    } else {
+      console.log(this.nombre, "no está inscrito en este curso.");
+    }
+  }
 }
