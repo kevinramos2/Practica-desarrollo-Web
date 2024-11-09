@@ -12,4 +12,8 @@ class Carrito {
   agregarProducto(producto) {
     this.productos.push(producto);
   }
+
+  calcularTotal() {
+    return this.productos.reduce((total, producto) => total + producto.precio, 0);
+  }
 }
