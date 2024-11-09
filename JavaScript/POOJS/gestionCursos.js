@@ -39,3 +39,18 @@ class Estudiante extends Usuario {
     }
   }
 }
+
+// Clase Profesor que hereda de Usuario
+class Profesor extends Usuario {
+  constructor(nombre, email) {
+    super(nombre, email);
+    this.cursosCreados = [];
+  }
+
+  crearCurso(nombre, descripcion) {
+    const nuevoCurso = new Curso(nombre, descripcion, this);
+    this.cursosCreados.push(nuevoCurso);
+    console.log("Curso ",nombre, "creado por el profesor ",this.nombre);
+    return nuevoCurso;
+  }
+}
