@@ -90,5 +90,7 @@ class Modulo {
     this.nombre = nombre;
     this.lecciones = [];
   }
-
+  agregarLeccion(leccion) {
+    this.lecciones.push(leccion);
+  }
 }
