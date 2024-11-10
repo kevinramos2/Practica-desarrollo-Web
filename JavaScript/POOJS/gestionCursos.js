@@ -73,4 +73,13 @@ class Curso {
     this.modulos.push(modulo);
     console.log("Módulo ",modulo.nombre," agregado al curso ",this.nombre);
   }
+
+  mostrarContenido() {
+    this.modulos.forEach((modulo, index) => {
+      console.log("Módulo ",index + 1,": ", modulo.nombre);
+      modulo.lecciones.forEach((leccion, idx) => {
+        console.log("Lección ",idx + 1,": ", leccion.titulo);
+      });
+    });
+  }
 }
