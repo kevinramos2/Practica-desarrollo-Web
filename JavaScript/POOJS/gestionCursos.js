@@ -130,3 +130,9 @@ modulo1.agregarLeccion(leccion2);
 
 // Agregar el módulo al curso
 curso1.agregarModulo(modulo1);
+
+// El estudiante se inscribe en el curso
+estudiante1.inscribirse(curso1);
+
+// El estudiante ve el contenido del curso
+estudiante1.verLecciones(curso1);
