@@ -94,3 +94,13 @@ class Modulo {
     this.lecciones.push(leccion);
   }
 }
+
+// Clase Leccion
+class Leccion {
+  constructor(titulo, contenido) {
+    this.titulo = titulo;
+    this.contenido = contenido;
+  }
+
+  
+}
