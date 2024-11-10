@@ -83,3 +83,12 @@ class Curso {
     });
   }
 }
+
+// Clase Modulo
+class Modulo {
+  constructor(nombre) {
+    this.nombre = nombre;
+    this.lecciones = [];
+  }
+
+}
