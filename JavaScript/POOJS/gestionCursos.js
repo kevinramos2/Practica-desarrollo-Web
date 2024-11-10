@@ -107,3 +107,9 @@ class Leccion {
     console.log(this.contenido);
   }
 }
+
+//Aquí irá la prueba de ejecución
+
+// Crear instancias de Profesor y Estudiante
+const profesor1 = new Profesor("Dr. Juan", "juan@ejemplo.com");
+const estudiante1 = new Estudiante("Maria", "maria@ejemplo.com");
