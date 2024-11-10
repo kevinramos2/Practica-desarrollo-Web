@@ -122,3 +122,11 @@ const curso1 = profesor1.crearCurso("JavaScript Avanzado", "Curso para desarroll
 const modulo1 = new Modulo("Introducción a JavaScript Avanzado");
 const leccion1 = new Leccion("Scope y Closures", "Explicación detallada sobre scope y closures en JavaScript.");
 const leccion2 = new Leccion("Promesas y Async/Await", "Cómo manejar operaciones asíncronas en JavaScript.");
+
+
+// Agregar lecciones al módulo
+modulo1.agregarLeccion(leccion1);
+modulo1.agregarLeccion(leccion2);
+
+// Agregar el módulo al curso
+curso1.agregarModulo(modulo1);
