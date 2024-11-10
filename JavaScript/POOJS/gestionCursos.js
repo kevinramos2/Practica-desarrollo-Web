@@ -113,3 +113,8 @@ class Leccion {
 // Crear instancias de Profesor y Estudiante
 const profesor1 = new Profesor("Dr. Juan", "juan@ejemplo.com");
 const estudiante1 = new Estudiante("Maria", "maria@ejemplo.com");
+
+
+// El profesor crea un curso
+const curso1 = profesor1.crearCurso("JavaScript Avanzado", "Curso para desarrolladores avanzados en JS.");
+
