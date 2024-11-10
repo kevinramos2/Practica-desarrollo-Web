@@ -118,3 +118,7 @@ const estudiante1 = new Estudiante("Maria", "maria@ejemplo.com");
 // El profesor crea un curso
 const curso1 = profesor1.crearCurso("JavaScript Avanzado", "Curso para desarrolladores avanzados en JS.");
 
+// Crear módulos y lecciones para el curso
+const modulo1 = new Modulo("Introducción a JavaScript Avanzado");
+const leccion1 = new Leccion("Scope y Closures", "Explicación detallada sobre scope y closures en JavaScript.");
+const leccion2 = new Leccion("Promesas y Async/Await", "Cómo manejar operaciones asíncronas en JavaScript.");
