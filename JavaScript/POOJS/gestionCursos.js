@@ -102,5 +102,8 @@ class Leccion {
     this.contenido = contenido;
   }
 
-  
+  verContenido() {
+    console.log(`Lección: ${this.titulo}`);
+    console.log(this.contenido);
+  }
 }
