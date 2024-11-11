@@ -83,9 +83,22 @@ let persona2 = {
   apellido: "Ramirez",
   email: "peprami@gmail.com",
   edad: 34,
+  idioma: "ES",
+  get lenguaje(){
+    return this.idioma.toUpperCase();
+  },
+  set lenguaje(idioma){
+    this.idioma = idioma.toUpperCase();
+  },
   get nombreCompleto(){
     return this.nombre + " " + this.apellido;
   }
 }
 
 console.log(persona2.nombreCompleto);
+
+console.log(persona2.lenguaje)
+
+persona2.lenguaje = "en";
+
+console.log(persona2.lenguaje)
