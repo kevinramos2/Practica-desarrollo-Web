@@ -102,3 +102,14 @@ console.log(persona2.lenguaje)
 persona2.lenguaje = "en";
 
 console.log(persona2.lenguaje)
+
+
+function Personas(nombre,apellido,email){
+  this.nombre = nombre;
+  this.apellido = apellido;
+  this.email = email;
+}
+
+let padre = new Personas("Jose","Ramos",42);
+
+console.log(padre);
