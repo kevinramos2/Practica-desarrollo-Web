@@ -75,3 +75,17 @@ persona1.presentacion(); //Si funcionaaaaa
 
 //Vamos a incrementar la edad
 persona1.cumpleañosAumenta();
+
+//Gets y Setts
+
+let persona2 = {
+  nombre: "Pepito",
+  apellido: "Ramirez",
+  email: "peprami@gmail.com",
+  edad: 34,
+  get nombreCompleto(){
+    return this.nombre + " " + this.apellido;
+  }
+}
+
+console.log(persona2.nombreCompleto);
